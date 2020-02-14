@@ -1,0 +1,42 @@
+[
+  {
+    "id": "A",
+    "duration": 8
+  },
+
+  {
+    "id": "B",
+    "duration": 5,
+    "predecessors": ["A"]
+  },
+
+  {
+    "id": "C",
+    "duration": 2,
+    "predecessors": ["B"]
+  },
+
+  {
+    "id": "D",
+    "duration": 1,
+    "predecessors": ["A"]
+  },
+
+  {
+    "id": "E",
+    "duration": 3,
+    "predecessors": ["A"]
+  },
+
+  {
+    "id": "F",
+    "duration": 4,
+    "predecessors": ["D"]
+  },
+
+  {
+    "id": "G",
+    "duration": 2,
+    "predecessors": ["E", "C", "F"]
+  }
+]
